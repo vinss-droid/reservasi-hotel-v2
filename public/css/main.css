@@ -1,0 +1,180 @@
+/* General */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+button,button.btn,button.btn:focus,button.btn:active,input,input.form-control:active,input.form-control:focus,select.form-select:active,select.form-select:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.ctm-border-input {
+    border-right: none !important;
+}
+
+.btn-ctm-green {
+    background-color: #469A49;
+    color: #fff;
+}
+
+.btn-ctm-green:hover {
+    color: #ddd;
+    background-color: #3e8641;
+}
+
+.ctm-mb-lg {
+    margin-bottom: 8% !important;
+}
+
+.disabled {
+    background-color: -internal-light-dark(rgba(68, 67, 67, 0.3), rgba(36, 35, 35, 0.3)) !important;
+    color: -internal-light-dark(rgb(59, 57, 57), rgb(65, 62, 62)) !important;
+    border-color: rgba(118, 118, 118, 0.3) !important;
+}
+
+input:disabled,button.btn:disabled,a.btn:disabled,select:disabled {
+    cursor: not-allowed !important;
+}
+
+.cursor-disabled {
+    cursor: not-allowed !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.bg-card-fasil {
+    background-color: #7B88A0;
+}
+
+.h-60 {
+    height: 60% !important;
+}
+
+.mt-ctm-fasil-kamar {
+    margin-top: -1%;
+}
+
+table.table {
+    font-size: 18px;
+}
+
+.cursor-text {
+    cursor: text !important;
+}
+
+.img-fasil-kamar {
+    height: 100% !important;
+}
+
+.tbl-reservasi-home {
+    font-size: 20px !important;
+    line-height: 10px !important;
+    margin-left: 10% !important;
+}
+
+.reservasi-detail {
+    padding-left: 10% !important;
+}
+
+
+/* Footer */
+
+.bg-ctm-black {
+    background-color: rgba(19, 15, 15, 0.664) !important;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+.ctm-mt-nav {
+    margin-top: 4.6%;
+}
+
+.ctm-pt-akamar {
+    padding-top: 2%;
+}
+
+.hover-dark {
+    color: #ddd !important;
+}
+
+.ctm-pt-footer {
+    margin-top: 20.5% !important;
+}
+
+.ctm-btn-primary {
+    background-color: hsl(240, 68%, 52%);
+    color: #fff;
+}
+
+.ctm-btn-primary:hover {
+    background-color: hsl(240, 68%, 52%);
+    color: #ddd;
+}
+
+
+/* Home */
+
+.ctm-carousel {
+    margin-top: 4%;
+}
+
+.ctm-ps {
+    padding-left: 15% !important;
+}
+
+.ctm-btn-psn {
+    margin-top: 31px;
+    background-color: #FAD02C;
+}
+
+.ctm-btn-psn:hover {
+    background-color: #e4bb1a;
+}
+
+.ctm-btn-konfirm {
+    margin-top: 31px;
+    background-color: #FAD02C;
+}
+
+.ctm-btn-konfirm:hover {
+    background-color: #e4bb1a;
+}
+
+.ctm-group-txt {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none !important;
+    border-left: none !important;
+}
+
+.img-carousel {
+    width: 100%;
+    height: 80% !important;
+}
+
+.pendaftaran {
+    padding-top: 4%;
+    /* padding-bottom: 2%; */
+}
+
+.ctm-mt-about {
+    margin-top: 8%;
+}
+
+/* Kamar */
+.carousel-kamar {
+    image-rendering: optimizeSpeed;
+}
+
+.img-carousel-kamar {
+    background-size: cover;
+}
+
+.ctm-py-km {
+    padding-top: 50px;
+}
